@@ -1,4 +1,4 @@
-# DB Migration
+# NoSQL DB Migration Tool
 
 This tool was made to simplify migrating from MongoDB to GCP Firestore. Both are NoSQL document based databases however there is no clear way to import an entire collection into Firestore as it's currently in Beta.
 
