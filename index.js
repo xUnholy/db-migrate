@@ -6,7 +6,7 @@ const data = require('./file.json')
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: 'https://spoof-my-text.firebaseio.com'
+  databaseURL: '' // Firestore DB url
 })
 
 data.forEach((element, index) => {
